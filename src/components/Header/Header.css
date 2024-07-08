@@ -1,0 +1,76 @@
+.header{
+    height: 39.6vw;
+    margin: 10px auto;
+    background: url('./../../assets/home.jpg') no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+.header_contents{
+    position: absolute;
+    margin-top: 10vw;
+    padding: 50px;
+    color: white;
+    margin-left: 10vw;
+    animation: fadeIn 3s;
+}
+.header_contents h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1vw;
+    font-size: 5vw;
+}
+.header_contents h2{
+    padding: 1vw;
+}
+.header_contents button{
+    margin: 1vw;
+    padding: 1vw;
+    width: 15vw;
+    border-radius: 50px;
+    color: white;
+    background-color: tomato;
+    border:none
+}
+.header_contents button:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+@media (max-width: 1050px){
+    .header_contents{
+            margin-top: 8vw;
+            padding: 20px;
+            margin-left: 8vw;  
+    }
+}
+@media (max-width: 700px){
+    .header_contents{
+            margin-top: 8vw;
+            padding: 20px;
+            margin-left: 8vw; 
+    }
+    .header_contents h2{
+        font-size: 3vw;
+    }
+    .header_contents button{
+        font-size: 11px;
+        height: 6vw;
+    }
+}
+
+@media (max-width: 400px){
+    .header_contents{
+            margin-top: 7vw;
+            padding: 15px;
+            margin-left: 6vw; 
+    }
+    .header_contents h2{
+        font-size: 2.5vw;
+    }
+    .header_contents button{
+        font-size: 7px;
+        height: 5.5vw;
+    }
+}
+ 
+ 
+    
